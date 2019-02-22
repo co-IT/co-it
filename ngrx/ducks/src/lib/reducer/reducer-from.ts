@@ -35,3 +35,9 @@ export function reducerFrom<T extends new () => InstanceType<T>>(
       : state;
   };
 }
+
+export function duckReducerFrom<T extends new () => InstanceType<T>>(
+  Token: T
+) {
+  return (state, action) => reducerFrom(Token)(state, action);
+}
