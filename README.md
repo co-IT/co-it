@@ -8,7 +8,7 @@
 | ------------ | ---------------------- | ------------------------------------------------------------- |
 | [ngrx-ducks] | [![npm-version][1]][2] | Easy but explicit handling for Redux actions embracing [OCP]. |
 
-[ngrx-ducks]: ./ngrx/ducks/
+[ngrx-ducks]: https://github.com/co-it/ngrx-ducks
 [1]: https://badge.fury.io/js/%40co-it%2Fngrx-ducks.svg
 [2]: https://www.npmjs.com/package/@co-it/ngrx-ducks
 [ocp]: https://en.wikipedia.org/wiki/Open%E2%80%93closed_principle
